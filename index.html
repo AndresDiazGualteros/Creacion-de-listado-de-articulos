@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product app</title>
+<!-- bootstrap cdn -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <!-- navegacion  -->
+    <nav class="navbar navbar-light bg-light">
+        <a href="#" class="navbar-brand">Product app</a>
+    </nav>
+    <div class="container">
+        <!-- aplicacion -->
+        <div id="App" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Add a Product</h4>
+                    </div>
+                    <div class="card-body ">
+                        <form action="" id="product-form">
+                            <div class="form-group mb-3">
+                                <input type="text" id="name" placeholder="Product name" class="form-control">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="number" name="" step="0.01" id="price" placeholder="Product price" class="form-control">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="number" name="" id="year" value="2022" class="form-control" placeholder="Year Product">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <input type="submit" value="save" class="btn btn-primary btn-block">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="product-list" class="col-md-8">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
